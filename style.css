@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey-700: hsl(0, 0%, 20%);
+    --Grey-800: hsl(0, 0%, 12%);
+    --Grey-900: hsl(0, 0%, 8%);
+}
+
+body {
+    background-color: var(--Grey-900);
+    font-family: Inter;
+    color: var(--White);
+    font-weight: 500;
+}
+
+.container {
+    background-color: var(--Grey-800);
+    text-align: center;
+    padding: 50px;
+    max-width: 450px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.jess {
+    border-radius: 50%;
+    max-width: 100px;
+    margin-bottom: 12px;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 1.7rem;
+}
+
+.intro {
+    line-height: 2rem;
+    margin: 12px 0px;
+}
+
+.intro p {
+    color: var(--Green);
+    font-size: 14px;
+}
+
+h5 {
+    font-weight: 100;
+    color: rgb(222, 221, 221);
+}
+
+.box p {
+    background-color: var(--Grey-700);
+    border-radius: 10px;
+    margin: 15px;
+    padding: 12px;
+    font-size: small;
+    cursor: pointer;
+}
+
+.box p:hover {
+    background-color: var(--Green);
+    color: var(--Grey-900);
+}
